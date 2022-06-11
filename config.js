@@ -5,10 +5,7 @@ import fs from 'fs'
 
 /**Owner number**/
 global.owner = [
-  ['6282328303332', '️<Owner>'],
-  ['62895605887712', '<Admin>'],
-  ['6283190403329', '<Moderator>'],
-  ['6281313312123', '<>', true ]
+  ['6283197563509', 'Owner', true ]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -38,8 +35,8 @@ global.APIKeys = { // APIKey Here
 }
 
 // Sticker WM
-global.packname = '6287724225921'
-global.author = 'Rain-Bot Is the best'
+global.packname = '62853360600o5'
+global.author = 'Dream-Bot Is the best'
 global.wm = "Adventure pitur"
 global.multiplier = 69 // The higher, The harder levelup
 
@@ -52,12 +49,12 @@ global.logo = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKsHEAITWM7
 global.gcwangsaf = "https://chat.whatsapp.com/ITjd9jsIfBAK5byfdb2cxj"//Link Group whatsapp
 
 //Donasi
-global.saweria = ""// website saweria.co
-global.dana = [""]
-global.pulsa = [""]//pulsa here
-global.trakteer = ""//Link url https://
+global.saweria = "https://www.saweria.co/dreambot"// website saweria.co
+global.dana = ["0831o7563509"]
+global.pulsa = ["085336060095"]//pulsa here
+global.trakteer = "https://trakteer.id/dreambot/tip"//Link url https://
 global.paypal = ""//paypal email
-global.gopay = ""//Numver for Payment digital Gopay Gojek
+global.gopay = "083197563509"//Numver for Payment digital Gopay Gojek
 
 
 //Rpg
