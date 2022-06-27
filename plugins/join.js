@@ -16,9 +16,8 @@ let handler = async (m, { conn, usedPrefix, text, isOwner }) => {
    let caption = `${conn.getName(conn.user.jid)} Adalah Bot whatsapp Yang dibangun dengan NodeJs,Grup Telah Diijinkan oleh @${m.sender.split`@`[0]} Selama ${expired ? ` selama ${expired} hari` : ''}. Ketik /menu Untuk melihat daftar fitur\n\n*Note:* _Jangan Spam Bot_`
    conn.sendButton(res, caption, author, [['Menu','.menu']], m, {mentions: conn.parseMention(caption)})
    } else {
-   var data = global.owner.filter(([id, isCreator]) => id && isCreator)
-   conn.reply( data.id + "@s.whatsapp.com" , `request to join group from ${conn.getName(m.sender)}\n\n${text}`, m)
-   m.reply('Sedang di Diperiksa Owner')
+   conn.reply(m.chat, cpt, m, { mentions: conn.parseMention(cpt)})
+   conn.reply('6282328303332@s.whatsapp.net', `request from ${conn.getName(m.sender)}\n\n${text}`, m)
    }
 }
 handler.help = ['join <chat.whatsapp.com>']
