@@ -17,7 +17,7 @@ let handler = async (m, { conn, usedPrefix, text, isOwner }) => {
    conn.sendButton(res, caption, author, [['Menu','.menu']], m, {mentions: conn.parseMention(caption)})
    } else {
    conn.reply(m.chat, cpt, m, { mentions: conn.parseMention(cpt)})
-   conn.reply('6282328303332@s.whatsapp.net', `request from ${conn.getName(m.sender)}\n\n${text}`, m)
+   conn.reply('6283197563509@s.whatsapp.net', `request from ${conn.getName(m.sender)}\n\n${text}`, m)
    }
 }
 handler.help = ['join <chat.whatsapp.com>']
